@@ -1,3 +1,5 @@
+![Logo](Git_instruction.jpg)
+
 # Работа с Git и GitHub
 
 1. Проверка наличия установленного Git
