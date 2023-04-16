@@ -148,7 +148,24 @@ git branch -D + name branch
 ```
 git branch -d -r <branchname>
 ```
-## 13. Заключение.
+## 13 Работа с удаленными репозиториями
+Чтобы добавить новый удаленный репозиторий, выполните команду git remote add в терминале в каталоге, в котором хранится репозиторий.
+
+Команда git remote add принимает два аргумента:
+
+имя удаленного репозитория, например, origin;
+URL-адрес удаленного репозитория, например, https://github.com/OWNER/REPOSITORY.git.
+Пример:
+```
+$ git remote add origin https://github.com/OWNER/REPOSITORY.git
+# Set a new remote
+```
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+
+## 14 Заключение.
 Вот и все! Наше руководство окончено. Мы очень старались собрать всю самую важную информацию и изложить ее как можно более сжато и кратко.
 Git довольно сложен, и в нем есть еще много функций и трюков.
 ![Finish](depositphotos_62067787-stock-photo-people-and-finish-line.jpg)
